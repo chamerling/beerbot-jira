@@ -1,0 +1,287 @@
+{
+  "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+  "id": "12191",
+  "self": "https://ci.open-paas.org/jira/rest/api/latest/issue/12191",
+  "key": "OR-1024",
+  "fields": {
+    "issuetype": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/issuetype/5",
+      "id": "5",
+      "description": "The sub-task of the issue",
+      "iconUrl": "https://ci.open-paas.org/jira/images/icons/issuetypes/subtask_alternate.png",
+      "name": "Sub-task",
+      "subtask": true
+    },
+    "parent": {
+      "id": "11817",
+      "key": "OR-770",
+      "self": "https://ci.open-paas.org/jira/rest/api/2/issue/11817",
+      "fields": {
+        "summary": "Create the App Store",
+        "status": {
+          "self": "https://ci.open-paas.org/jira/rest/api/2/status/1",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "https://ci.open-paas.org/jira/images/icons/statuses/open.png",
+          "name": "Open",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://ci.open-paas.org/jira/rest/api/2/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "priority": {
+          "self": "https://ci.open-paas.org/jira/rest/api/2/priority/3",
+          "iconUrl": "https://ci.open-paas.org/jira/images/icons/priorities/major.png",
+          "name": "Major",
+          "id": "3"
+        },
+        "issuetype": {
+          "self": "https://ci.open-paas.org/jira/rest/api/2/issuetype/3",
+          "id": "3",
+          "description": "A task that needs to be done.",
+          "iconUrl": "https://ci.open-paas.org/jira/images/icons/issuetypes/task.png",
+          "name": "Task",
+          "subtask": false
+        }
+      }
+    },
+    "timespent": null,
+    "project": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/project/10100",
+      "id": "10100",
+      "key": "OR",
+      "name": "OpenPaaS RSE",
+      "avatarUrls": {
+        "48x48": "https://ci.open-paas.org/jira/secure/projectavatar?avatarId=10011",
+        "24x24": "https://ci.open-paas.org/jira/secure/projectavatar?size=small&avatarId=10011",
+        "16x16": "https://ci.open-paas.org/jira/secure/projectavatar?size=xsmall&avatarId=10011",
+        "32x32": "https://ci.open-paas.org/jira/secure/projectavatar?size=medium&avatarId=10011"
+      }
+    },
+    "fixVersions": [],
+    "aggregatetimespent": null,
+    "resolution": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/resolution/1",
+      "id": "1",
+      "description": "A fix for this issue is checked into the tree and tested.",
+      "name": "Fixed"
+    },
+    "resolutiondate": "2015-01-29T15:05:56.555+0100",
+    "workratio": -1,
+    "lastViewed": null,
+    "watches": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/issue/OR-1024/watchers",
+      "watchCount": 2,
+      "isWatching": false
+    },
+    "created": "2015-01-27T10:57:37.366+0100",
+    "priority": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/priority/3",
+      "iconUrl": "https://ci.open-paas.org/jira/images/icons/priorities/major.png",
+      "name": "Major",
+      "id": "3"
+    },
+    "customfield_10300": "0|i0072f:",
+    "labels": [],
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [],
+    "issuelinks": [],
+    "assignee": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/user?username=slemaistre",
+      "name": "slemaistre",
+      "key": "slemaistre",
+      "emailAddress": "slemaistre@linagora.com",
+      "avatarUrls": {
+        "48x48": "https://ci.open-paas.org/jira/secure/useravatar?avatarId=10113",
+        "24x24": "https://ci.open-paas.org/jira/secure/useravatar?size=small&avatarId=10113",
+        "16x16": "https://ci.open-paas.org/jira/secure/useravatar?size=xsmall&avatarId=10113",
+        "32x32": "https://ci.open-paas.org/jira/secure/useravatar?size=medium&avatarId=10113"
+      },
+      "displayName": "Stephen LE MAISTRE",
+      "active": true,
+      "timeZone": "Europe/Paris"
+    },
+    "updated": "2015-04-17T11:48:45.495+0200",
+    "status": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/status/6",
+      "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+      "iconUrl": "https://ci.open-paas.org/jira/images/icons/statuses/closed.png",
+      "name": "Closed",
+      "id": "6",
+      "statusCategory": {
+        "self": "https://ci.open-paas.org/jira/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+      }
+    },
+    "components": [
+      {
+        "self": "https://ci.open-paas.org/jira/rest/api/2/component/10000",
+        "id": "10000",
+        "name": "frontend",
+        "description": "User Interface"
+      }
+    ],
+    "timeoriginalestimate": null,
+    "description": null,
+    "timetracking": {},
+    "customfield_10005": [
+      "com.atlassian.greenhopper.service.sprint.Sprint@59176efb[id=27,rapidViewId=34,state=CLOSED,name=Test sprint,startDate=2015-03-26T13:58:52.207+01:00,endDate=2015-04-09T13:58:00.000+02:00,completeDate=2015-03-26T13:59:18.829+01:00,sequence=23]"
+    ],
+    "customfield_10401": null,
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "customfield_10403": null,
+    "customfield_10404": null,
+    "attachment": [],
+    "aggregatetimeestimate": null,
+    "summary": "Rename appstore into modulemanager (frontend side).",
+    "creator": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/user?username=slemaistre",
+      "name": "slemaistre",
+      "key": "slemaistre",
+      "emailAddress": "slemaistre@linagora.com",
+      "avatarUrls": {
+        "48x48": "https://ci.open-paas.org/jira/secure/useravatar?avatarId=10113",
+        "24x24": "https://ci.open-paas.org/jira/secure/useravatar?size=small&avatarId=10113",
+        "16x16": "https://ci.open-paas.org/jira/secure/useravatar?size=xsmall&avatarId=10113",
+        "32x32": "https://ci.open-paas.org/jira/secure/useravatar?size=medium&avatarId=10113"
+      },
+      "displayName": "Stephen LE MAISTRE",
+      "active": true,
+      "timeZone": "Europe/Paris"
+    },
+    "subtasks": [],
+    "reporter": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/user?username=slemaistre",
+      "name": "slemaistre",
+      "key": "slemaistre",
+      "emailAddress": "slemaistre@linagora.com",
+      "avatarUrls": {
+        "48x48": "https://ci.open-paas.org/jira/secure/useravatar?avatarId=10113",
+        "24x24": "https://ci.open-paas.org/jira/secure/useravatar?size=small&avatarId=10113",
+        "16x16": "https://ci.open-paas.org/jira/secure/useravatar?size=xsmall&avatarId=10113",
+        "32x32": "https://ci.open-paas.org/jira/secure/useravatar?size=medium&avatarId=10113"
+      },
+      "displayName": "Stephen LE MAISTRE",
+      "active": true,
+      "timeZone": "Europe/Paris"
+    },
+    "customfield_10000": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10201": [
+      "Tested"
+    ],
+    "customfield_10004": "9223372036854775807",
+    "customfield_10400": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "startAt": 0,
+      "maxResults": 2,
+      "total": 2,
+      "comments": [
+        {
+          "self": "https://ci.open-paas.org/jira/rest/api/2/issue/12191/comment/11927",
+          "id": "11927",
+          "author": {
+            "self": "https://ci.open-paas.org/jira/rest/api/2/user?username=mbailly",
+            "name": "mbailly",
+            "key": "mbailly",
+            "emailAddress": "mbailly@linagora.com",
+            "avatarUrls": {
+              "48x48": "https://ci.open-paas.org/jira/secure/useravatar?ownerId=mbailly&avatarId=10300",
+              "24x24": "https://ci.open-paas.org/jira/secure/useravatar?size=small&ownerId=mbailly&avatarId=10300",
+              "16x16": "https://ci.open-paas.org/jira/secure/useravatar?size=xsmall&ownerId=mbailly&avatarId=10300",
+              "32x32": "https://ci.open-paas.org/jira/secure/useravatar?size=medium&ownerId=mbailly&avatarId=10300"
+            },
+            "displayName": "Michael BAILLY",
+            "active": true,
+            "timeZone": "Europe/Paris"
+          },
+          "body": "SUCCESS: Integrated in openpaas-rse-oncommit #1012 (See [https://ci.open-paas.org/jenkins/job/openpaas-rse-oncommit/1012/])\r\nOR-1024 Change App store into Module Manager (slemaistre: http://localhost:7990/stash/commits/0ad1cee7ca71cea6c54bdf952fcc16a8b43a0d30)\r\nOR-1024 Change application into module only in templates (slemaistre: http://localhost:7990/stash/commits/69863798ec341e9140cbb5310c3aa1a207c75ed8)\r\n",
+          "updateAuthor": {
+            "self": "https://ci.open-paas.org/jira/rest/api/2/user?username=mbailly",
+            "name": "mbailly",
+            "key": "mbailly",
+            "emailAddress": "mbailly@linagora.com",
+            "avatarUrls": {
+              "48x48": "https://ci.open-paas.org/jira/secure/useravatar?ownerId=mbailly&avatarId=10300",
+              "24x24": "https://ci.open-paas.org/jira/secure/useravatar?size=small&ownerId=mbailly&avatarId=10300",
+              "16x16": "https://ci.open-paas.org/jira/secure/useravatar?size=xsmall&ownerId=mbailly&avatarId=10300",
+              "32x32": "https://ci.open-paas.org/jira/secure/useravatar?size=medium&ownerId=mbailly&avatarId=10300"
+            },
+            "displayName": "Michael BAILLY",
+            "active": true,
+            "timeZone": "Europe/Paris"
+          },
+          "created": "2015-01-29T18:50:46.957+0100",
+          "updated": "2015-01-29T18:50:46.957+0100"
+        },
+        {
+          "self": "https://ci.open-paas.org/jira/rest/api/2/issue/12191/comment/11933",
+          "id": "11933",
+          "author": {
+            "self": "https://ci.open-paas.org/jira/rest/api/2/user?username=mbailly",
+            "name": "mbailly",
+            "key": "mbailly",
+            "emailAddress": "mbailly@linagora.com",
+            "avatarUrls": {
+              "48x48": "https://ci.open-paas.org/jira/secure/useravatar?ownerId=mbailly&avatarId=10300",
+              "24x24": "https://ci.open-paas.org/jira/secure/useravatar?size=small&ownerId=mbailly&avatarId=10300",
+              "16x16": "https://ci.open-paas.org/jira/secure/useravatar?size=xsmall&ownerId=mbailly&avatarId=10300",
+              "32x32": "https://ci.open-paas.org/jira/secure/useravatar?size=medium&ownerId=mbailly&avatarId=10300"
+            },
+            "displayName": "Michael BAILLY",
+            "active": true,
+            "timeZone": "Europe/Paris"
+          },
+          "body": "SUCCESS: Integrated in openpaas-rse-oncommit #1013 (See [https://ci.open-paas.org/jenkins/job/openpaas-rse-oncommit/1013/])\r\nOR-1024 Change App store into Module Manager (slemaistre: http://localhost:7990/stash/commits/0ad1cee7ca71cea6c54bdf952fcc16a8b43a0d30)\r\nOR-1024 Change application into module only in templates (slemaistre: http://localhost:7990/stash/commits/69863798ec341e9140cbb5310c3aa1a207c75ed8)\r\n",
+          "updateAuthor": {
+            "self": "https://ci.open-paas.org/jira/rest/api/2/user?username=mbailly",
+            "name": "mbailly",
+            "key": "mbailly",
+            "emailAddress": "mbailly@linagora.com",
+            "avatarUrls": {
+              "48x48": "https://ci.open-paas.org/jira/secure/useravatar?ownerId=mbailly&avatarId=10300",
+              "24x24": "https://ci.open-paas.org/jira/secure/useravatar?size=small&ownerId=mbailly&avatarId=10300",
+              "16x16": "https://ci.open-paas.org/jira/secure/useravatar?size=xsmall&ownerId=mbailly&avatarId=10300",
+              "32x32": "https://ci.open-paas.org/jira/secure/useravatar?size=medium&ownerId=mbailly&avatarId=10300"
+            },
+            "displayName": "Michael BAILLY",
+            "active": true,
+            "timeZone": "Europe/Paris"
+          },
+          "created": "2015-01-30T11:10:21.350+0100",
+          "updated": "2015-01-30T11:10:21.350+0100"
+        }
+      ]
+    },
+    "votes": {
+      "self": "https://ci.open-paas.org/jira/rest/api/2/issue/OR-1024/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    }
+  }
+}
